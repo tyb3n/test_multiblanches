@@ -9,8 +9,9 @@ pipeline {
     stage ('Script') {
 
       steps {
-        sh 'chmod +x rondoudou.sh'
-	  sh './rondoudou.sh'
+        sh 'chmod +x test_mb_jenkins.sh'
+	  sh './test_mb_jenkins.sh'
+
       }
 
     }
