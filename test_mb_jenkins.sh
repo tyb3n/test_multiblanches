@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "build le : `date +'%D'`" >> /home/jenkins/test_mb_jenkins.log 
+echo "build le : `date +'%D %T'`" >> /home/jenkins/test_mb_jenkins.log 
