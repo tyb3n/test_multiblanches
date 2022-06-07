@@ -18,8 +18,7 @@ pipeline {
 	stage ('Packaging') {
 
       steps {
-        sh 'cd /home/jenkins/test_maven'
-	sh 'mvn package -DskipTests'
+        sh 'cd /home/jenkins/test_maven && mvn package -DskipTests'
       }
     }
 	stage ('Testing') {
